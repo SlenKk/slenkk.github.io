@@ -1,0 +1,42 @@
+.reason {
+	padding: 70px 0 81px 0;
+	background-color: #f6f6f6;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 238px;
+		margin-top: 65px;
+	}
+	&__subtitle {
+		color: #0d0d0d;
+		font-size: 18px;
+		font-weight: 700;
+		margin-top: 38px;
+	}
+	&__text {
+		color: #0d0d0d;
+		font-size: 14px;
+		font-weight: 400;
+		margin-top: 26px;
+		text-align: center;
+		a {
+			color: #ff0000;
+			text-decoration: underline;
+		}
+	}
+	&__icon {
+		&_animated {
+			animation: heartbeat 1.5s ease infinite alternate;
+			&:hover {
+				animation-duration: 300ms;
+				animation-direction: normal;
+			}
+		}
+	}
+
+}
